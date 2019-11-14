@@ -170,6 +170,26 @@ a:hover {
   text-decoration: underline;
 }
 
+#paperButton {
+  color: #212529;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+#paperButton:hover {
+  color: #6c757d;
+}
+
+#memberButton {
+  color: #fff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+#memberButton:hover {
+  color: #e8e8e8;
+}
+
 a:not([href]):not([tabindex]) {
   color: inherit;
   text-decoration: none;
@@ -9570,7 +9590,8 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .divider-custom {
-  margin: 1.25rem 0 1.5rem;
+  /*margin: 1.25rem 0 1.5rem;*/
+  padding-bottom: 95px;
   width: 100%;
   display: flex;
   justify-content: center;
