@@ -105,77 +105,56 @@
       <div class="row">
 
         <!-- Portfolio Item 1 -->
-        <div class="col-md-6 col-lg-4">
+        <div class="col-12">
           <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
               <div class="portfolio-item-caption-content text-center text-white">
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/cabin.png" alt="">
+            <picture>
+              <source media="(min-width: 992px)" srcset="img/portfolio/hypertec-website-large.png">
+              <source media="(min-width: 768px)" srcset="img/portfolio/hypertec-website-small.png">
+              <img src="img/portfolio/hypertec-website-large.png" alt="Main" class="img-fluid">
+            </picture>
           </div>
         </div>
 
         <!-- Portfolio Item 2 -->
-        <div class="col-md-6 col-lg-4">
+        <div class="col-md-12 col-lg-4">
           <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
               <div class="portfolio-item-caption-content text-center text-white">
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/cake.png" alt="">
+            <img class="img-fluid" src="img/portfolio/rhythm-website-small.png" alt="">
           </div>
         </div>
 
         <!-- Portfolio Item 3 -->
-        <div class="col-md-6 col-lg-4">
+        <div class="col-md-12 col-lg-4">
           <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
               <div class="portfolio-item-caption-content text-center text-white">
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/circus.png" alt="">
+            <img class="img-fluid" src="img/portfolio/contrelement-website-small.png" alt="">
           </div>
         </div>
 
         <!-- Portfolio Item 4 -->
-        <div class="col-md-6 col-lg-4">
+        <div class="col-md-12 col-lg-4">
           <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
               <div class="portfolio-item-caption-content text-center text-white">
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/game.png" alt="">
+            <img class="img-fluid" src="img/portfolio/cold-website-small.png" alt="">
           </div>
         </div>
-
-        <!-- Portfolio Item 5 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/safe.png" alt="">
-          </div>
-        </div>
-
-        <!-- Portfolio Item 6 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/submarine.png" alt="">
-          </div>
-        </div>
-
       </div>
       <!-- /.row -->
 
@@ -201,19 +180,46 @@
       <div class="text-center">
         <div class="row">
           <div class="col-md-4">
-            <a href="" target="_blank" id="memberButton">
+            <a href="https://twitter.com/jackdotgriff" target="_blank" id="memberButton">
               <h3 >Jack Griffiths</h3>
             </a>
+            <div class="row">
+
+              <div class="col-3">
+                <a href="#" id="memberButton">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </div>
+
+              <div class="col-3">
+                <a href="#" id="memberButton">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+
+              <div class="col-3">
+                <a href="#" id="memberButton">
+                  <i class="fab fa-itch-io"></i>
+                </a>
+              </div>
+
+              <div class="col-3">
+                <a href="#" id="memberButton">
+                  <i class="fas fa-user-alt"></i>
+                </a>
+              </div>
+
+            </div>
           </div>
 
           <div class="col-md-4">
-            <a href="" target="_blank" id="memberButton">
+            <a href="https://twitter.com/hungrydevstudio" target="_blank" id="memberButton">
               <h3>Jack Brewer</h3>
             </a>
           </div>
 
           <div class="col-md-4">
-            <a href="" target="_blank" id="memberButton">
+            <a href="https://adenwebb21.github.io/" target="_blank" id="memberButton">
               <h3>Aden Webb</h3>
             </a>
           </div>
@@ -349,27 +355,22 @@
       <div class="modal-content">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">
-            <i class="fas fa-times"></i>
+            <i class="fas fa-times close-button"></i>
           </span>
         </button>
         <div class="modal-body text-center">
           <div class="container">
             <div class="row justify-content-center">
               <div class="col-lg-8">
-                <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
-                <!-- Icon Divider -->
-                <div class="divider-custom">
-                  <div class="divider-custom-line"></div>
-                  <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
-                  </div>
-                  <div class="divider-custom-line"></div>
+
+                <div>
+                  <img class="img-fluid mb-5" src="img/darkpng.png" alt="">
                 </div>
+
                 <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/cabin.png" alt="">
+                <img class="img-fluid rounded mb-5" src="img/portfolio/hypertec-website-small.png" alt="">
                 <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                <p class="mb-5 lead">HYPERTEC is a voxel style dogfighter set in space. It features modular ships and procedural weapon systems with inspiations like Everspace and Borderlands driving our systems inspiration. We’re finding a mid-point between the movement of a jet and the movement of a spaceship in zero gravity, built in unity for use with a controller</p>
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
                   Close Window
@@ -395,20 +396,15 @@
           <div class="container">
             <div class="row justify-content-center">
               <div class="col-lg-8">
-                <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tasty Cake</h2>
-                <!-- Icon Divider -->
-                <div class="divider-custom">
-                  <div class="divider-custom-line"></div>
-                  <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
-                  </div>
-                  <div class="divider-custom-line"></div>
+
+                <div>
+                  <img class="img-fluid mb-5" src="img/rhythm-title.png" alt="">
                 </div>
+
                 <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/cake.png" alt="">
+                <img class="img-fluid rounded mb-5" src="img/portfolio/rhythm-website-small.png" alt="">
                 <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                <p class="mb-5 lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
                   Close Window
@@ -434,20 +430,15 @@
           <div class="container">
             <div class="row justify-content-center">
               <div class="col-lg-8">
-                <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Circus Tent</h2>
-                <!-- Icon Divider -->
-                <div class="divider-custom">
-                  <div class="divider-custom-line"></div>
-                  <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
-                  </div>
-                  <div class="divider-custom-line"></div>
+
+                <div>
+                  <img class="img-fluid mb-5" src="img/contrelement-title.png" alt="">
                 </div>
+
                 <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/circus.png" alt="">
+                <img class="img-fluid rounded mb-5" src="img/portfolio/contrelement-website-small.png" alt="">
                 <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                <p class="mb-5 lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
                   Close Window
@@ -473,20 +464,15 @@
           <div class="container">
             <div class="row justify-content-center">
               <div class="col-lg-8">
-                <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Controller</h2>
-                <!-- Icon Divider -->
-                <div class="divider-custom">
-                  <div class="divider-custom-line"></div>
-                  <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
-                  </div>
-                  <div class="divider-custom-line"></div>
+
+                <div>
+                  <img class="img-fluid mb-5" src="img/cold-title.png" alt="">
                 </div>
+
                 <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/game.png" alt="">
+                <img class="img-fluid rounded mb-5" src="img/portfolio/cold-website-small.png" alt="">
                 <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                <p class="mb-5 lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
                   Close Window
