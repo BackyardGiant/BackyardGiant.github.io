@@ -24,7 +24,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #1abc9c;
+  --primary: #80bfe0;;
   --secondary: #2c3e50;
   --success: #28a745;
   --info: #17a2b8;
@@ -6234,6 +6234,10 @@ a.close.disabled {
   background-color: #678cac !important;
 }
 
+.bg-header {
+  background-color: #80bfe0;
+}
+
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
@@ -9729,9 +9733,21 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .masthead {
-  padding-top: calc(6rem + 74px);
-  padding-bottom: 6rem;
+  /*padding-top: calc(6rem + 74px);
+  padding-bottom: 6rem;*/
   color: #faf17c !important;
+  padding-top: calc(6rem + 74px);
+  background-color: #80bfe0;
+}
+
+.banner-image {
+  background-image: url("../img/WebsiteBannerTileable.png");
+  /*padding-top: calc(6rem + 104px);
+  padding-bottom: 6rem;*/
+
+  max-width: 100%;
+  max-height: 100vh;
+  height: auto;
 }
 
 .masthead .masthead-heading {
@@ -9749,11 +9765,11 @@ a.text-dark:hover, a.text-dark:focus {
 
 @media (min-width: 992px) {
   .masthead {
-    padding-top: calc(6rem + 104px);
-    padding-bottom: 6rem;
+    /*padding-top: calc(6rem + 104px);
+    padding-bottom: 6rem;*/
   }
   .masthead .masthead-heading {
-    font-size: 4rem;
+    font-size: 5rem;
     line-height: 3.5rem;
 
   }
