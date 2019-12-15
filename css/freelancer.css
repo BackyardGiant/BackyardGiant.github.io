@@ -198,6 +198,12 @@ iframe {
   border-radius: 1.5rem;
 }
 
+.hyper-masthead {
+  color: #faf17c !important;
+  padding-top: 6rem !important;
+  background-color: #80bfe0;
+}
+
 #paperButton {
   color: #212529;
   text-decoration: none;
