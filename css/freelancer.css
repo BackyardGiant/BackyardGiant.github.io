@@ -161,7 +161,7 @@ sup {
 
 a {
   color: #faf17c;
-  text-decoration: none;
+  text-decoration: none !important;
   background-color: transparent;
 }
 
@@ -182,11 +182,6 @@ a:hover {
   background-color: #678cac !important;
 }
 
-iframe {
-  width: 540px !important;
-  height: 304px !important;
-}
-
 .juicer-feed p {
   font-family:'Open Sans', cursive;
   font-size: 1.25rem;
@@ -199,9 +194,35 @@ iframe {
 }
 
 .hyper-masthead {
-  color: #faf17c !important;
   padding-top: 6rem !important;
-  background-color: #80bfe0;
+}
+
+.hypertec-body {
+  background: linear-gradient(0deg,rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("../img/hypertec/bannerbg.png");
+  background-size: cover;
+  background-position: center;
+  background-color: #000 !important;
+}
+
+.hypertec-button {
+  font-family: 'Audiowide', cursive;
+  font-weight: bold;
+  font-size: 20px !important;
+}
+
+.hypertec-body-text {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.hypertec-card {
+  border-radius: 1.5rem !important;
+}
+
+.hypertec-heading {
+  font-family: 'Audiowide', cursive;
+  font-weight: bold;
 }
 
 #paperButton {
@@ -2774,6 +2795,39 @@ fieldset:disabled a.btn {
 .btn-outline-danger:not(:disabled):not(.disabled):active:focus, .btn-outline-danger:not(:disabled):not(.disabled).active:focus,
 .show > .btn-outline-danger.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.5);
+}
+
+.btn-outline-twitter {
+  color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.btn-outline-twitter:hover {
+  color: #212529;
+  background-color: #1da1f2;
+  border-color: #1da1f2;
+}
+
+.btn-outline-presskit {
+  color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.btn-outline-presskit:hover {
+  color: #212529;
+  background-color: #eea80b;
+  border-color: #eea80b;
+}
+
+.btn-outline-itch {
+  color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.btn-outline-itch:hover {
+  color: #212529;
+  background-color: #fa5c5c;
+  border-color: #fa5c5c;
 }
 
 .btn-outline-light {
